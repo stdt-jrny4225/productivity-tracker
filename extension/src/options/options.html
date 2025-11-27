@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Productivity Tracker Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>Productivity Tracker Settings</h1>
+      <p style="color: var(--text-muted); margin-bottom: 12px;">
+        Configure backend API and mark websites as productive or unproductive.
+      </p>
+
+      <div class="card">
+        <h2>Backend API</h2>
+        <label>
+          API Base URL:
+          <input
+            id="apiBaseUrl"
+            type="text"
+            placeholder="http://localhost:5000"
+          />
+        </label>
+      </div>
+
+      <div class="card">
+        <h2>Domain Categories</h2>
+        <table id="domainTable">
+          <thead>
+            <tr>
+              <th>Domain</th>
+              <th>Category</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <div class="add-row">
+          <input id="newDomain" type="text" placeholder="linkedin.com" />
+          <select id="newCategory">
+            <option value="productive">Productive</option>
+            <option value="unproductive">Unproductive</option>
+          </select>
+          <button id="addBtn">Add</button>
+        </div>
+
+        <button id="saveBtn">Save</button>
+      </div>
+    </div>
+
+    <script src="options.js"></script>
+  </body>
+</html>

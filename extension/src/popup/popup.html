@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Today's Productivity</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup-root">
+      <div class="header">
+        <div>
+          <h1>Today</h1>
+          <p id="summary" class="subtitle">Loading...</p>
+        </div>
+        <button id="syncBtn" class="btn-primary">Sync</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="sites-header">
+        <span>Top Websites</span>
+        <span class="legend">
+          <span class="dot prod"></span> Productive
+          <span class="dot unprod"></span> Unproductive
+        </span>
+      </div>
+
+      <div id="list" class="sites-list"></div>
+
+      <p class="footer">
+        ⏱ Tracking active tabs only • Idle time is ignored
+      </p>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
