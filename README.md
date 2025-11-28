@@ -91,6 +91,20 @@ Click Load Unpacked
 
 Select: productivity-tracker/extension
 
+# OUTPUT 
+
+EXTENTION POPUP OUTPUT
+<img width="957" height="502" alt="Image" src="https://github.com/user-attachments/assets/ab63d0f8-95f8-4c57-b833-a68c41eb329a" />
+
+POPUP OPTION "WHERE YOU SET PRDUCTIVE AND UNPRODUCTIVE"
+<img width="959" height="494" alt="Image" src="https://github.com/user-attachments/assets/d368f44a-ff0b-4089-beed-f91ec0e26fb1" />
+
+TODAY DASHBOARD OUTPUT
+<img width="952" height="502" alt="Image" src="https://github.com/user-attachments/assets/10486e5a-05e1-4a5c-b443-1e0b6343a1c6" />
+
+WEAKLY DASBOARD OUTPUT
+<img width="960" height="505" alt="Image" src="https://github.com/user-attachments/assets/f5f096ea-de88-4961-abe3-e266543f26e2" />
+
 🔍 Features Explained in Detail
 
 |Feature	|Description|
@@ -101,7 +115,7 @@ Select: productivity-tracker/extension
 |Data Browsing	|View previous days from dropdown|
 |UI Enhancement	|Charts + Progress bars + Scroll area|
 
-🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 During this internship, I gained practical knowledge in:
 
@@ -119,7 +133,7 @@ During this internship, I gained practical knowledge in:
 
 ✔ Deployment on Cloud Platforms
 
-🏁 Conclusion
+# 🏁 Conclusion
 
 This project successfully demonstrates:
 
