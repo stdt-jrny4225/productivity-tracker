@@ -42,17 +42,13 @@ body {
   gap: 8px;
 }
 
-h1 {
-  font-size: 16px;
-  font-weight: 650;
+/* new: group the buttons */
+.header-actions {
+  display: flex;
+  gap: 6px;
 }
 
-.subtitle {
-  font-size: 11px;
-  color: var(--text-muted);
-  margin-top: 2px;
-}
-
+/* existing primary button (Sync) */
 .btn-primary {
   border: none;
   outline: none;
@@ -69,6 +65,23 @@ h1 {
 .btn-primary:hover {
   filter: brightness(1.1);
 }
+
+/* NEW: secondary button (Clear) */
+.btn-secondary {
+  border-radius: 999px;
+  border: 1px solid #4b5563;
+  background: rgba(15, 23, 42, 0.9);
+  color: var(--text-muted);
+  font-size: 11px;
+  padding: 5px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover {
+  background: rgba(31, 41, 55, 0.9);
+}
+
 
 /* BODY */
 
