@@ -65,10 +65,11 @@ export default function Dashboard() {
           gap: 20
         }}
       >
-        <div>
-          <h2>Top Websites</h2>
-          <TimeBarChart data={topDomains} />
-        </div>
+      <div style={{ overflowY: "auto", maxHeight: "300px", paddingRight: "10px" }}>
+        <h2>Top Websites</h2>
+        <TimeBarChart data={topDomains} />
+      </div>
+
         <div>
           <h2>Productive vs Unproductive</h2>
           <PieProductivity
