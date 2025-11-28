@@ -82,6 +82,24 @@ body {
   background: rgba(31, 41, 55, 0.9);
 }
 
+/* DROPDOWN */
+.day-select {
+  margin: 6px 0 4px;
+  font-size: 11px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.day-select select {
+  background: #020617;
+  color: var(--text-main);
+  border: 1px solid #1f2937;
+  padding: 3px 6px;
+  border-radius: 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
 
 /* BODY */
 
